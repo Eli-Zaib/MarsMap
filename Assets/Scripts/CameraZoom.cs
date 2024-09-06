@@ -16,7 +16,7 @@ public class CameraZoom : MonoBehaviour
 
             if (Mathf.Abs(scroll) > Mathf.Epsilon) // Check if the scroll value is non-zero
             {
-                Debug.Log($"Mouse Scroll Wheel Input Detected: {scroll}");
+            
 
                 // Adjust the camera's field of view
                 mainCamera.fieldOfView -= scroll * zoomSpeed;
